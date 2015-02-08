@@ -12,8 +12,8 @@ class ConnBdd {
 	public function __construct($dbname) {
 		$this -> host = 'localhost';
 		$this -> dbname = $dbname;
-		$this -> user = 'challing_adoukof';
-		$this -> pssword = 'kHv&P-pkCSr98vsf';
+		$this -> user = '';
+		$this -> pssword = '';
 		$this -> connect();
 	}
 
