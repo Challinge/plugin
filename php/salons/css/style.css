@@ -1,0 +1,220 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('ea_sports_covers_sc/EA%20Sports%20Covers%20SC%201.5.ttf');
+}
+
+
+
+#barre-latterale-droite{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 280px;
+    background: none repeat scroll 0% 0% #40516F;
+    z-index: 9999;
+}
+
+#barre-latterale-droite h3 a {
+    display: block;
+    padding: 1px 35px;
+    position: relative;
+    color: #EAEAEA;
+
+    text-decoration: none;
+    cursor: hand;
+}
+
+#barre-latterale-droite h3 a:hover, a:focus {
+    display: block;
+    background: rgb(73, 93, 127);
+
+}
+
+
+
+#barre-latterale-droite h2{
+    display: block;
+    padding: 0 25px;
+    color: #EAEAEA;
+    font-family: myFirstFont;
+
+}
+
+#barre-latterale-droite h2 a{
+    cursor: hand;
+
+}
+
+#fermer-les-salons{
+    position: relative;
+    top: 5px;
+}
+
+#barre-latterale-droite.fixed {
+    position: fixed;
+    min-height: 0px !important;
+}
+
+#chat-box {
+    position: absolute;
+    right: 280px;
+    width: 340px;
+    background: none repeat scroll 0% 0% padding-box #37455F;
+    display: none;
+    z-index: 9999;
+}
+
+.is-online {
+    border-radius: 50%;
+    width: 0.5px;
+    height: 0.5px;
+    margin: 3px;
+
+    background-color: #06B53C;
+
+}
+
+#chat-box .chat-box-header {
+    padding: 0px 24px;
+    font-size: 14px;
+    color: #FFF;
+    border-bottom: 1px solid #53698F;
+}
+
+#barre-latterale-droite .chat-box-header {
+    padding: 0px 24px;
+    font-size: 14px;
+    color: #FFF;
+    border-bottom: 1px solid #53698F;
+}
+
+#chat-box .chat-textarea {
+    padding: 20px 24px;
+    position: relative;
+    font-family: Arial;
+}
+
+#a-fermer-les-salons{
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#a-fermer-le-salon{
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.form-control {
+    box-shadow: none !important;
+    border-color: #E5E5E5;
+    border-radius: 0px !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    font-family: Arial;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+#chat-box ul.chat-box-body {
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    height: 250px;
+}
+
+.chat-box-body {
+    list-style: outside none none;
+    overflow: auto;
+
+}
+
+#chat-box ul.chat-box-body > li .user {
+    font-weight: bold;
+    font-family: Arial;
+    color: #EDEDED;
+    padding-left: 2px;
+}
+
+#chat-box ul.chat-box-body > li .time {
+    float: right;
+    font-style: italic;
+    font-family: Arial;
+    color: #EDEDED;
+    font-size: 11px;
+    /*margin-top: 12px;*/
+    padding-right: 5px;
+}
+
+a .badge.is-hidden {
+    opacity: 0;
+}
+a .badge {
+    font-size: 9px;
+    margin-left: 5px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#p-chat-content{
+    color: #EDEDED;
+    font-family: Arial;
+    padding-left: 10px;
+}
+
+.active {
+    background: none repeat scroll 0% 0% #495D7F;
+}
+
+.active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 0px 8px 8px;
+    border-color: transparent transparent transparent #37455F;
+    left: 0px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+
+h3 a {
+    font-family: myFirstFont;
+}
+
+.avt {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px 5px 0px 5px;
+    vertical-align: -9px;
+}
+
+.odd {
+    background: none repeat scroll 0% 0% #3A4A65;
+}
+
+#p-username{
+    color: #EAEAEA;
+    font-family: arial, verdana, tahoma;
+    padding: 0px 45px 0px 45px;
+}
